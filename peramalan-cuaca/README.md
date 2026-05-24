@@ -44,6 +44,7 @@ ionic serve
 Aplikasi otomatis terbuka di alamat browser: http://localhost:8100
 
 # Struktur Direktori Utama
+```
 peramalan-cuaca/
 ├── public/
 ├── src/
@@ -55,18 +56,17 @@ peramalan-cuaca/
 │   └── main.js         # Entry point aplikasi
 ├── package.json        # Manifest file & daftar dependensi (Axios, Ionic Vue, dll)
 └── README.md           # Dokumentasi proyek
+```
 
 ## Endpoint API yang Digunakan
 
 Aplikasi ini mengonsumsi data dari Open-Meteo dengan spesifikasi berikut:
-
-    URL: https://api.open-meteo.com/v1/forecast?latitude=-6.2&longitude=106.8&hourly=temperature_2m
-
-    Atribut yang diambil:
-
-        hourly.time : Waktu pengukuran cuaca.
-
-        hourly.temperature_2m : Derajat suhu dalam satuan Celcius (°C).
+```
+URL: https://api.open-meteo.com/v1/forecast?latitude=-6.2&longitude=106.8&hourly=temperature_2m
+```
+Atribut yang diambil:
+- hourly.time : Waktu pengukuran cuaca.
+- hourly.temperature_2m : Derajat suhu dalam satuan Celcius (°C).
 
 ## Lisensi
 Untuk laporan tugas 2 Pemograman Berbasis Perangkat Bergerak (PBPB) Yoseph Fredrik Paparang (053444878)
